@@ -102,7 +102,7 @@ const StudentRegister = () => {
         </div>
 
           <img
-            src="/assets/student-portal.svg"
+            src="/assets/student-register.svg"
             alt="Register"
             className="register-image"
           />
