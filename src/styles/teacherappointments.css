@@ -1,0 +1,71 @@
+.teacher-appointments-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-appointments-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .teacher-appointment-card {
+    border: 1px solid #e0e0e0;
+    border-left: 6px solid #8e8eff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fdfdfd;
+  }
+  
+  .teacher-appointment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-appointment-card h5 {
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .teacher-appointment-card p {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .teacher-appointment-card .status {
+    font-weight: 600;
+  }
+  
+  .teacher-appointment-card .status.pending {
+    color: #ffa500;
+  }
+  
+  .teacher-appointment-card .status.approved {
+    color: #28a745;
+  }
+  
+  @media (max-width: 768px) {
+    .teacher-appointments-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .teacher-appointment-card {
+      padding: 15px;
+    }
+  
+    .teacher-appointments-title {
+      font-size: 1.5rem;
+    }
+  }
+  

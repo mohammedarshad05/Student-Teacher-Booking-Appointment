@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+.footer-dark {
+  background: linear-gradient(to right, #141e30, #243b55);
+  padding: 1.5rem 0;
+  color: #e0e0e0;
+  font-family: "Outfit", sans-serif;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 4rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+}
+
+.footer-left strong {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-icon {
+  font-size: 1rem;
+  color: #00bcd4;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.footer-designer {
+  font-size: 0.85rem;
+  color: #cccccc;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  color: #cccccc;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00bcd4;
+}
+
+@media (max-width: 768px) {
+  .footer-right {
+    align-items: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+}

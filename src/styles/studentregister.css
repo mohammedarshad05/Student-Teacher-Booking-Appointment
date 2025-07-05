@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  background: linear-gradient(to bottom right, #5f5dcf, #8e8eff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  width: 95%;
+  max-width: 1200px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* === Left === */
+.register-left {
+  flex: 1;
+  background-color: #1e1e2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.register-box {
+  background-color: #2a2a3d;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.register-box .form-label {
+  color: #ccc;
+}
+
+.register-box .form-control {
+  background-color: #1e1e2f;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.register-box .form-control:focus {
+  box-shadow: 0 0 0 2px #8e8eff;
+}
+
+.register-btn {
+  background-color: #8e8eff;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #7575f0;
+}
+
+.register-login-link {
+  margin-top: 16px;
+  text-align: center;
+  color: #ccc;
+}
+
+.text-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  color: #8e8eff;
+}
+
+/* === Right === */
+.register-right {
+  flex: 1.2;
+  background: linear-gradient(135deg, #8e8eff, #b985f4);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.register-right h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-right p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.register-image {
+  width: 400px;
+  max-width: 90%;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.register-image:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .register-container {
+    flex-direction: column;
+  }
+
+  .register-right {
+    order: -1;
+    padding-bottom: 30px;
+  }
+
+  .register-image {
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .register-right h1 {
+    font-size: 2rem;
+  }
+}
