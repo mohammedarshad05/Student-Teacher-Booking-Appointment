@@ -4,7 +4,7 @@ A responsive and user-friendly web application that allows students to book appo
 
 ## 🔗 Live Demo
 
-[🔗 Visit Website](https://your-deployed-link.vercel.app)
+[🔗 Visit Website](https://student-teacher-booking-appointment-beta.vercel.app/)
 
 ## 🚀 Features
 
